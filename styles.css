@@ -1,0 +1,205 @@
+
+@font-face {
+    font-family: Raleway;
+	src: url(./fonts/LeagueMono-Light.woff);
+	
+}
+@font-face {
+	font-family: Lobster;
+	src: url('./fonts/Lobster-Regular.ttf');
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+	background: WHITE;
+	text-align: center;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+
+
+
+h1 {
+	color: #0e0e0e;
+	text-transform: lowercase;
+	font-size: 8em;
+	font-family: Lobster;
+	margin: 0px;
+}
+
+p {
+	font-weight: 600;
+}
+
+#first {
+	margin-top: 10px;
+	color: #FFCD5D;
+}
+
+#second {
+	color: #51DF70;
+
+}
+
+#third {
+	color: #025F70;
+	margin-bottom: 30px;
+}
+
+
+#enter {
+	border: none;
+    padding: 5px 15px;
+    font-family: Raleway;
+	font-size: 3em;
+	font-weight: 800;
+	border-radius: 5px;
+	color: #363636;
+	background-color: #FF6663;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-color: #FF6663;
+	color: #363636;
+}
+
+#userInput {
+    background: WHITE;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #363636;
+	text-transform: capitalize;
+    font-weight: 600;
+    font-size: 3em;
+	border-radius: 5px;
+    margin-bottom: 10px;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+    -o-transition: all 0.5 ease;
+}
+
+
+
+li:hover {
+    background: #FFCD5D;
+    color: #363636;
+}
+
+li > button {
+    font-size: 1em;
+    font-family: Lobster;
+	background: none;
+	border: none;
+	float: right;
+	color: #363636;
+    font-weight: 100;
+    opacity: 1;
+
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+    border: none;
+    font-size: 3em;
+    font-family: Raleway;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+.done {
+	background: #FFCD5D !important;
+	color: #363636;
+}
+.done:hover {
+	background: #FFCD5D !important;
+	color: #363636;
+}
+
+.delete {
+  display: none;
+  opacity: 0;
+}
+
+.col-12 {
+	display: grid;
+	grid-template-rows: 1fr;
+   	margin: 1.2em;
+}
+.container {
+	display: block;
+    margin: 40px;
+	border: #363636;
+	border-width: 1em;
+	border-style: solid;
+	border-radius: 2em;
+}
+
+.title {
+	margin: 0px;
+	font-weight: bold;
+	
+}
+
+.toolbar {
+	background: #FFCD5D;
+	height: 2em;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	
+}
+
+.circle {
+	margin-right: 0px;
+	padding: 0;
+	border-radius: 50%;
+	width: 1em;
+	height: 1em; 
+	background: #363636;
+	position: relative;
+	top: 0.5em;
+	left: 0.5em;
+}
+
+@media screen and (max-width: 700px) {
+	.title {
+	  font-size: 0.8em;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#userInput {
+	font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#enter {
+	font-size: 2em;
+	}
+}

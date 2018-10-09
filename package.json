@@ -1,0 +1,11 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "todo application",
+  "main": "index.js",
+  "author": "grant",
+  "license": "MIT",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}
